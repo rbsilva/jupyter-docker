@@ -7,6 +7,7 @@ RUN pip install beautifulsoup4
 RUN pip install pandas
 RUN pip install keras
 RUN pip install tflearn
+RUN pip install tpot
 RUN rm -rf /notebooks/*
 WORKDIR /notebooks
 CMD ["/run_jupyter.sh"]
