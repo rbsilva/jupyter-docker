@@ -11,3 +11,5 @@ RUN pip install tflearn
 RUN pip install tpot
 RUN pip install deap
 RUN pip install vpython
+RUN pip install spacy
+RUN pip install kanren
