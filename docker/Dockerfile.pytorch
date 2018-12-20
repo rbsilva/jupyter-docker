@@ -1,0 +1,7 @@
+FROM pytorch/pytorch
+
+MAINTAINER Rodrigo Silva <rbsilva.ti@gmail.com>
+
+RUN conda install numpy jupyter notebook
+
+CMD jupyter notebook --allow-root --ip=0.0.0.0
